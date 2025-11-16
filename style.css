@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Helvetica Now Display';
+  src: url('/fonts/HelveticaNow/HelveticaNowDisplay-Regular.woff2') format('woff2'),
+       url('/fonts/HelveticaNow/HelveticaNowDisplay-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: "helvetica-now-display", sans-serif;
+
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    
+   
+}
+#nav a{
+     color: black;
+     text-decoration: none;
+     font-size: 15px;
+     margin: 30px;
+
+}
+#nav{
+    padding: 40px 50px;
+}
+#main>h1{
+    font-size: 300px;
+    font-weight: 100;
+    padding: 20px;
+
+}
+.btmleft{
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    width: 200px;
+}
+.btmleft h4{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.btmleft p{
+    font-size: 15px;
+    margin-top: 5px;
+}
+.btmleft h3{
+    font-size: 20px;
+}
+.bottombar{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px 80px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 8px;
+
+
+}
+
+.bottombar a{
+    color: black;
+    text-decoration: none;
+   font-size: 15px;
+
+}
+#main>img{
+    height: 350px;
+    position: absolute;
+    width: 300px;
+
+}
+
+ #main #first{
+    top: 45%;
+    left:75% ;
+}
+ #main #second{
+    top: 60%;
+    left:60% ;
+ 
+}
+ #main #third{
+    top: 45%;
+    left:45% ;
+}
+
